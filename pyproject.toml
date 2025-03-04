@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rigol_utils"
+version = "0.1.0"
+description = "A utility for reading Rigol oscilloscope CSV files."
+license = { text = "MIT" }
+dependencies = [
+    "pandas",
+]
